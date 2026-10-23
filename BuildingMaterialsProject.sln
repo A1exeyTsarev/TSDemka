@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChudoObuv", "BuildingMaterialsProject\ChudoObuv.csproj", "{B2E11D5D-D5D2-4B4F-972F-7D95DFBCBABC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2E11D5D-D5D2-4B4F-972F-7D95DFBCBABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E11D5D-D5D2-4B4F-972F-7D95DFBCBABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E11D5D-D5D2-4B4F-972F-7D95DFBCBABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E11D5D-D5D2-4B4F-972F-7D95DFBCBABC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72563F61-7BAE-4BF9-89FB-3E2C14DCC3F8}
+	EndGlobalSection
+EndGlobal

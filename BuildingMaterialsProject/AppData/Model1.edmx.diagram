@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3858896b77eb40c8a5ef8d7b708980ab" Name="Diagram1">
+        <EntityTypeShape EntityType="ChudoObuvModel.Categories" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChudoObuvModel.Manufacturers" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChudoObuvModel.OrderItems" Width="1.5" PointX="9.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChudoObuvModel.Orders" Width="1.5" PointX="7.5" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChudoObuvModel.Products" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChudoObuvModel.Roles" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChudoObuvModel.Sizes" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChudoObuvModel.StockItems" Width="1.5" PointX="7.5" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChudoObuvModel.Subcategories" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChudoObuvModel.Users" Width="1.5" PointX="5.25" PointY="8.25" IsExpanded="true" />
+        <AssociationConnector Association="ChudoObuvModel.FK__Subcatego__Categ__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="ChudoObuvModel.FK__Products__Manufa__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="ChudoObuvModel.FK__OrderItem__Order__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="ChudoObuvModel.FK__OrderItem__Stock__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="ChudoObuvModel.FK__Orders__UserId__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="ChudoObuvModel.FK__Products__Subcat__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="ChudoObuvModel.FK__StockItem__Produ__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="ChudoObuvModel.FK__Users__RoleId__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="ChudoObuvModel.FK__StockItem__SizeI__36B12243" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
